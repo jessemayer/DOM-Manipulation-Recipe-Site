@@ -1,0 +1,19 @@
+{
+  "name": "week-10-dom-manipulation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "week-10.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jessemayer/Week-10-DOM-Manipulation.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jessemayer/Week-10-DOM-Manipulation/issues"
+  },
+  "homepage": "https://github.com/jessemayer/Week-10-DOM-Manipulation#readme"
+}

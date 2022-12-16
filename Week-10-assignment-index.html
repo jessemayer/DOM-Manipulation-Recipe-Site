@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="/scripts.css"> -->
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body class="container bg-black">
+    <!-- Using HTML, Bootstrap, and JavaScript create a single page website that contains
+        A Bootstrap styled table representing your choice of data. -->
+	<!-- A Bootstrap styled form that allows a user to add a new row to the table when clicking on submit. -->
+        <br>
+        
+            <div class="card">
+                <img src="/Users/jessemayer/Git/Week-10-DOM-Manipulation/background.img.jpg" class="card-img">
+                <div class="card-img-overlay">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-md">
+                            <div class="form-group">                               
+                                
+                                    <label for="new-date" class="text-white">Recipe Date</label>
+                                    <input type="date" class="form-control" id="recipe-date">
+                            </div>
+                        </div> 
+                            <div class="col-md">
+                                <div class="form-group">                               
+                                    <label for="new-task" class="text-white">Recipe Name</label>
+                                    <input type="text" class="form-control" id="new-recipe">
+                                </div> 
+                            </div>
+                            <div class="col-md">                            
+                                <div class="form-group">                               
+                                <label for="new-task" class="text-white">Ingredient</label>
+                                <input type="text" class="form-control" id="new-ingredient" placeholder="Ingredient">
+                                </div> 
+                            </div>
+                            <div class="col-md">
+                                <div class="form-group">                               
+                                    <label for="new-task" class="text-white">Preparation</label>
+                                    <input type="text" class="form-control" id="new-prep" placeholder="Dice, Roast, ect.">
+                                </div> 
+                            </div>
+                            <div class="col-md">
+                                <div class="form-group">                               
+                                    <label for="new-task" class="text-white">Meal Type</label>
+                                    <input type="text" class="form-control" id="new-meal-type" placeholder="Breakfast, Lunch, Dinner, Snack">
+                                </div> 
+                            </div>
+                            <br>
+                    </div>
+                </div>
+                    <div class="">
+                        <button id="add" class="btn btn-info btn-sm form-control ">Create Recipe</button>
+                    </div>
+                    
+                    <table id="list" class="table text-white">
+                        <tr>
+                            <th>Recipe Date</th>
+                            <th>Recipe Name</th>
+                            <th>Ingredient</th>
+                            <th>Preparation</th>
+                            <th>Meal Type</th>
+                            <th>Delete Recipe</th>
+                        </tr>
+                    </table>
+                    
+                </div>
+            </div>
+          <script src="/Users/jessemayer/Git/Week-10-DOM-Manipulation/week-10.js"></script>
+    <!-- JavaScript bootstrap Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+</html>
