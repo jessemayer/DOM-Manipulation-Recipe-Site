@@ -47,7 +47,8 @@ function createDeleteButton(id) {
         // using DOM manipulation.remove  to delete row variable that we just created
         elementToDelete.remove(elementToDelete);
     };
-    // returned the button
+    // returned the button 
+    
     return btn;    
 }
 
