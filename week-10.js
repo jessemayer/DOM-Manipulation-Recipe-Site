@@ -9,7 +9,7 @@ document.getElementById('add').addEventListener('click', () => {
     // created a variable that insets a row in the table variable that we just created at position 1.
     let row = table.insertRow(1);
     // set the row text to white 
-    row.className = 'text-white';
+    row.className = 'text-dark bg-light';
     // set attributes for the row that was just created
     row.setAttribute('id', `item-${id}`);
     // created a cell that references what date was chosen using templet literals to show the year, month, date
