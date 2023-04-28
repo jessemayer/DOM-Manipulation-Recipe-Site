@@ -1,8 +1,9 @@
-html {
-    background-image: url('./background.png');
-    background-repeat: no-repeat;
-    background-size: cover;
+.background-img {
+    
+    
+   
     height: 100vh;
-    position: relative;
+    
+   
   
 }
